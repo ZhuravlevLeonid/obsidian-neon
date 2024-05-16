@@ -408,75 +408,36 @@ body .excalidraw {
 .theme-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
 .theme-dark,
 .theme-light {
-  /* --background-modifier-accent: var(--ax3);
-  --background-modifier-border-focus: var(--ui3);
-  --background-modifier-border-hover: var(--ui2);
-  --background-modifier-border: var(--ui1);
-  --background-modifier-form-field-highlighted: var(--bg1);
-  --background-modifier-form-field: var(--bg1);
-  --background-modifier-success: var(--color-green); */
- /* --background-modifier-hover: var(--color-ocean); */
   --background-modifier-active-hover: var(--bg3);
-  /*
-  --background-primary: var(--bg1);
-  --background-primary-alt: var(--bg2);
-  --background-secondary: var(--bg2);
-  --background-secondary-alt: var(--bg1);
-  --background-table-rows: var(--bg2);
-  --checkbox-color: var(--color-ocean);
-  --checkbox-color-hover: var(--color-red);
-  */
   --code-normal: var(--tx1);
   --divider-color: var(--ui1);
   --frame-divider-color: var(--ui1);
-  /* --icon-color-active: var(--tx1);
-   --icon-color-focused: var(--tx1); 
-  --icon-color-hover: var(--color-black);
-  --icon-color: var(--tx1); 
-  --icon-hex: var(--mono0); */
   --interactive-accent-hover: var(--ax1);
   --interactive-accent: var(--ax3);
   --interactive-hover: var(--ui1);
-  /* --list-marker-color: var(--tx3); *
-  --modal-border-color: var(--ui2);
-  /*
-  --nav-item-background-active: var(--bg3);
-  --nav-item-background-hover: var(--color-ocean);
-  --nav-item-color: var(--tx2);
-  --nav-item-color-active: var(--tx1);
-  --nav-item-color-hover: var(--tx1);
-  */
-  /* --nav-collapse-icon-color: var(--color-ocean); */ /* Стрелочки в навигации */
-  /* --nav-collapse-icon-color-collapsed: var(--tx2); */ /* ? */
-  --nav-indentation-guide-color: var(--ui1); /* Полоска в навигации был ui1*/
-  --prompt-border-color: var(--ui3); /* ? */
-  /* --quote-opening-modifier: var(--color-ocean); */ /* Полоска в quote */ 
-  /* --ribbon-background: var(--bg2); */ /* Фон полоски с иконками*/ 
-  --scrollbar-active-thumb-bg: var(--ui3); /* ? */
-  --scrollbar-bg: transparent; /* ? */
-  --scrollbar-thumb-bg: var(--ui1); /* ? */
-  --search-result-background: var(--bg1); /* ? */ 
-  --tab-text-color-focused-active: var(--tx1); /* ? */
-  /* --tab-outline-color: var(--color-ocean); */ /* Линия обводки сверху */
-  --text-accent-hover: var(--ax2);  /* ? */
-  --text-accent: var(--ax1); /* Влияет на цвет стрелочек, но не оно */
-  --text-blockquote: var(--tx2);  /* ? */
-  --text-bold: var(--tx1); /* ? */
-  --text-code: var(--tx4); /* ? */
-  --text-error: var(--color-red); /* text-ошибки */
-  /* --text-faint: var(--color-ocean); */
-  /* --text-highlight-bg: var(--color-ocean); */
+  --nav-indentation-guide-color: var(--ui1); 
+  --prompt-border-color: var(--ui3);
+  --scrollbar-active-thumb-bg: var(--ui3); 
+  --scrollbar-bg: transparent; 
+  --scrollbar-thumb-bg: var(--ui1); 
+  --search-result-background: var(--bg1); 
+  --tab-text-color-focused-active: var(--tx1); 
+  --text-accent-hover: var(--ax2);  
+  --text-accent: var(--ax1); 
+  --text-blockquote: var(--tx2);  
+  --text-bold: var(--tx1); 
+  --text-code: var(--tx4); 
+  --text-error: var(--color-red); 
   --text-italic: var(--tx1); 
   --text-muted: var(--tx2);
-  --text-normal: var(--tx1); /* Куча текста, но толком без изменений*/ 
-  --text-on-accent: var(--sp1); /* ? */
-  --text-selection: var(--hl1); /* ? */ 
-  /* --text-formatting: var(--color-ocean); */ /* Цвет нумерованного списка */ 
-  --title-color-inactive: var(--tx2); /* ? */
-  --title-color: var(--tx1); /* ? */ 
-  --titlebar-background: var(--bg2); /* ? */
-  --titlebar-background-focused: var(--bg2); /* ? */
-  --titlebar-text-color-focused: var(--tx1); /* ? */
+  --text-normal: var(--tx1); 
+  --text-on-accent: var(--sp1); 
+  --text-selection: var(--hl1); 
+  --title-color-inactive: var(--tx2); 
+  --title-color: var(--tx1); 
+  --titlebar-background: var(--bg2);
+  --titlebar-background-focused: var(--bg2); 
+  --titlebar-text-color-focused: var(--tx1); 
   --workspace-background-translucent: hsla(var(--base-h),var(--base-s), var(--base-l), 0.7);
 }
 
@@ -498,9 +459,7 @@ body .excalidraw {
 }
 
 /* MIT License
-
 Copyright (c) 2024 Zhuravlev Leonid (@ZHLD) 
-
 */
 
 .theme-light {
@@ -515,21 +474,17 @@ Copyright (c) 2024 Zhuravlev Leonid (@ZHLD)
   /* Shadows */
   --shadow-color:rgba(0, 0, 0, 0.1);
   --btn-shadow-color:rgba(0, 0, 0, 0.05);
-
   /* Icons */
   --icon-color: var(--color-black);
   --icon-color-hover: var(--color-black);
-
   /* Navigation Buttons */
   --nav-item-background-hover: var(--color-neon-light);
   --nav-item-color: var(--tx1);
   --nav-item-color-active: var(--tx1);
   --nav-item-color-hover: var(--tx1);
   --nav-collapse-icon-color: var(--color-neon-light);
-
   /* Tab */
   --tab-outline-color: var(--color-neon-light);
-
   /* Backgrounds */
   --background-modifier-hover: var(--color-neon-light);
   --background-primary: var(--bg1);
@@ -545,17 +500,14 @@ Copyright (c) 2024 Zhuravlev Leonid (@ZHLD)
   --background-modifier-form-field-highlighted: var(--bg1);
   --background-modifier-form-field: var(--bg1);
   --background-modifier-success: var(--color-green);
-
   /* Checkboxs */
   --checkbox-color: var(--color-neon-light);
   --checkbox-color-hover: var(--color-red);
-
   /* Text */
   --quote-opening-modifier: var(--color-neon-light);
   --text-highlight-bg: var(--color-neon-light);
   --text-formatting: var(--color-neon-light);
   --text-faint: var(--color-neon-light);
-
 }
 
 .theme-dark {
@@ -574,13 +526,10 @@ Copyright (c) 2024 Zhuravlev Leonid (@ZHLD)
   --background-modifier-box-shadow:rgba(0, 0, 0, 0.3);
   --shadow-color:rgba(0, 0, 0, 0.3);
   --btn-shadow-color:rgba(0, 0, 0, 0.2);
-
   /* Icons */ 
   --icon-color: var(--color-neon);
   --icon-color-hover: var(--color-black);
   --icon-color-active: var(--color-black);
-
-  
   /* Navigation Buttons */
   --nav-item-background-hover: var(--color-neon);
   --nav-item-color: var(--tx1);
@@ -588,34 +537,25 @@ Copyright (c) 2024 Zhuravlev Leonid (@ZHLD)
   --nav-item-color-hover: var(--color-black);
   --nav-item-hover: var(--bold-weight);
   --nav-collapse-icon-color: var(--color-neon);
-  --nav-item-background-active: rgb(6,247,247,0.4); /* обдумать */
+  --nav-item-background-active: rgb(6,247,247,0.4); 
   --nav-item-color-active: var(--color-black);
-
-  --list-marker-color: var(--color-neon);
+  /* Checkboxs */
   --checkbox-color: var(--color-neon);
   --checkbox-color-hover: var(--color-red);
-  /*
-  1. Поменять фон и текст и шрифт внутри подсказок
-  2. Сделать жирным текст внутри выбранного элемента навигации
-  3. Изменить цвет текста внутри хайлайтера
-  4. Границы цвет
-  5. Цвет фона заметки основной
-  */ 
+  /* Tab */
   --tab-outline-color: var(--color-neon);
-
+  /* Backgrounds */
   --background-primary: var(--bg1);
   --background-primary-alt: var(--bg2);
   --background-secondary: var(--bg2);
   --background-secondary-alt: var(--bg1);
   --background-table-rows: var(--bg2);
-
+  /* Text */
   --quote-opening-modifier: var(--color-neon);
-
   --text-highlight-bg: rgba(6,247,247,0.4);
   --text-formatting: var(--color-neon);
   --text-faint: var(--color-neon);
-
-  
+  --list-marker-color: var(--color-neon);
 }
 
 .theme-light.minimal-light-white {
@@ -657,12 +597,11 @@ body {
 
 /* Obsidian */
 /* Block width snippet */
-.minimal-dev-block-width {
-  /* Green — Folding offset width */
-  /* Red — Max width */
-  /* Orange — Wide line width*/
-  /* Blue — Normal line width */
-}
+/* Green — Folding offset width */
+/* Red — Max width */
+/* Orange — Wide line width*/
+/* Blue — Normal line width */
+
 .minimal-dev-block-width .mod-root .workspace-leaf-content:after {
   display: flex;
   align-items: flex-end;
