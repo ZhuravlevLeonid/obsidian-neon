@@ -57,7 +57,7 @@ You can also use the Style Settings plugin for even deeper customization
 ## License
 
 MIT License
-Copyright (c) 2024 Zhuravlev Leonid (@ZHLD)
+Copyright (c) 2024 Zhuravlev Leonid (@ZhuravlevLeonid)
 
 
 
