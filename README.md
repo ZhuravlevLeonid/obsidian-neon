@@ -7,7 +7,7 @@ This theme is provided "as is" and is intended for my personal use of Obsidian o
 This theme changes large parts of the Obsidian interface, so it may not work in future updates. It may also be incompatible with other custom CSS you have.
 
 
-## About Minimal
+## About Theme
 
 - [Screenshots](#screenshots)
 - [Installation](#installation)
@@ -18,7 +18,7 @@ This theme changes large parts of the Obsidian interface, so it may not work in 
 
 ## Screenshots
 
-![](/docs/Images/main.png)
+![](/docs/Images/dark.png)
 
 
 ## Installation
@@ -40,8 +40,6 @@ You can also use the Style Settings plugin for even deeper customization
 
 ## Plugin support
 
-Most plugins work well with Minimal, but the following plugins have received special love and attention:
-
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Charts](https://github.com/phibr0/obsidian-charts)
 - [Checklist](https://github.com/delashum/obsidian-checklist-plugin)
@@ -61,7 +59,5 @@ Most plugins work well with Minimal, but the following plugins have received spe
 MIT License
 Copyright (c) 2024 Zhuravlev Leonid (@ZHLD)
 
-### Minimal for Desktop and Mobile
 
-Minimal for Obsidian apps is licensed under the MIT License which allows you to modify and redistribute the code, however you must preserve the copyright and license notice in your CSS file. This includes any code you may extract as standalone snippets.
 
