@@ -2396,17 +2396,7 @@ body:is(.borders-none) .mod-root .workspace-tab-header-container:is(div, :hover)
   
 }
 
-/* MIT License | Copyright (c) Stephan Ango (@kepano) 
-
-Cards snippet for Obsidian
-
-author: @kepano
-version: 3.0.1
-
-Support my work:
-https://github.com/sponsors/kepano
-
-*/
+/* MIT License | Copyright (c) Stephan Ango (@kepano) */
 body {
   --cards-min-width: 180px;
   --cards-max-width: 1fr;
@@ -2536,21 +2526,7 @@ body {
   
 }
 
-/*
-.cards,
-.markdown-source-view.mod-cm6.cards {
-.dataview.table-view-table > tbody > tr > td,
-table.dataview tbody > tr > td {
-	border-bottom: none;
-	padding: 0!important;
-	line-height: 1.2;
-	width: calc(100% - var(--cards-padding));
-	margin: 0 auto;
-	overflow: visible !important;
-	max-width: 100%;
-	display: flex;
-}
-}*/
+
 .links-int-on .cards table {
   --link-decoration: none;
   
@@ -3085,14 +3061,14 @@ li[data-task=b] > p > input:checked {
 
 body.theme-dark:not(.colorful-active) .horizontal-tab-nav-item.is-active,
 body.theme-dark:not(.colorful-active) .vertical-tab-nav-item.is-active {
-  background-color: var(--bg3); /* активная кнопка в настройках */
-  color: var(--color-neon); /* Цвет текста внутри */ 
+  background-color: var(--bg3); 
+  color: var(--color-neon); 
 }
 
 body.theme-light:not(.colorful-active) .horizontal-tab-nav-item.is-active,
 body.theme-light:not(.colorful-active) .vertical-tab-nav-item.is-active {
-  background-color: var(--bg3); /* активная кнопка в настройках */
-  color: var(--color-neon-light); /* Цвет текста внутри */ 
+  background-color: var(--bg3); 
+  color: var(--color-neon-light); 
 }
 
 
@@ -3703,16 +3679,8 @@ span[src$="#interface"] img {
 }
 
 /* MIT License | Copyright (c) Stephan Ango (@kepano) 
-
-Image Grid snippet for Obsidian
-
-author: @kepano
-version: 4.0.0
-
-Support my work:
-https://github.com/sponsors/kepano
-
 */
+
 /* Revamped for Obsidian 1.1.9+ using :has() */
 body {
   --image-grid-fit: cover;
@@ -3856,12 +3824,6 @@ body:not(.zoom-off) .workspace-leaf-content[data-type=markdown] .view-content .m
 
 Labeled Nav snippet for Obsidian
 
-author: @kepano
-version: 2.0.0
-
-Support my work:
-https://github.com/sponsors/kepano
-
 */
 .labeled-nav.mod-windows,
 .labeled-nav.is-fullscreen:not(.colorful-frame) {
@@ -3995,66 +3957,16 @@ body:not(.sidebar-color) .mod-right-split :not(.mod-top) .workspace-tab-header-c
   --tab-container-background: var(--background-primary);
 }
 
-/* Sidebar documents
 
-.mod-left-split .markdown-preview-sizer>div,
-.mod-left-split .cm-contentContainer {
-	padding-left:0 !important;
-	max-width:100% !important;
-}
-.workspace > .workspace-split:not(.mod-root) {
-
-	.CodeMirror,
-	.cm-scroller,
-	.markdown-preview-view {
-		font-size:var(--font-adaptive-small);
-		line-height:1.25;
-	}
-	.workspace-leaf-content[data-type=markdown] .markdown-preview-view {
-		padding:0 15px;
-	}
-	.workspace-leaf-content[data-type=markdown] .markdown-embed .markdown-preview-view {
-		padding:0;
-	}
-	.CodeMirror,
-	.markdown-preview-section,
-	.markdown-preview-sizer {
-		max-width:100%;
-		padding:0;
-		width:auto;
-	}
-	.cm-editor {
-		--folding-offset: 0px;
-	}
-
-}
-
-.minimal-folding .workspace > .workspace-split:not(.mod-root) .workspace-leaf-content[data-type=markdown] .allow-fold-headings.markdown-preview-view .markdown-preview-sizer,
-.minimal-folding .workspace > .workspace-split:not(.mod-root) .workspace-leaf-content[data-type=markdown] .allow-fold-lists.markdown-preview-view .markdown-preview-sizer {
-	padding-left:0;
-}
-
-
-.workspace > .workspace-split:not(.mod-root) .internal-embed .markdown-embed {
-	border:none;
-	padding:0;
-}
-
-.workspace > .workspace-split:not(.mod-root) .CodeMirror-sizer {
-	padding-left:10px;
-}
- */
 /* Main tabs */
 body.theme-dark {
   --minimal-tab-text-color: var(--text-muted);
-  --minimal-tab-text-color-active: var(--color-neon); 
-  /* Наименование выбранной заметки */ 
+  --minimal-tab-text-color-active: var(--color-neon);  
 }
 
 body.theme-light {
   --minimal-tab-text-color: var(--text-muted);
   --minimal-tab-text-color-active: var(--color-neon-light); 
-  /* Наименование выбранной заметки */ 
 }
 
 .workspace-tabs:not(.mod-stacked) {
